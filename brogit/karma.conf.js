@@ -25,7 +25,7 @@ module.exports = function (config) {
       suppressAll: true // removes the duplicated traces
     },
     coverageReporter: {
-      dir: require('path').join(__dirname, './coverage/exagit'),
+      dir: require('path').join(__dirname, './coverage/brogit'),
       subdir: '.',
       reporters: [
         { type: 'html' },
